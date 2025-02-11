@@ -8,16 +8,16 @@ const introdata = {
     title: "Hi, I'm Harsh Sharma",
     animated: {
         first: "I love problem solving",
-        second: "I do Competitive Programmer",
-        third: "I build Backend",
+        second: "Transforming Ideas into Functional Software",
+        third: "",
     },
-    description: "I'm a third year CS undergrad with a deep interest in backend development and problem solving.",
+    description: "A third year CS undergrad with a deep interest in backend development and problem solving.",
     your_img_url: "https://res.cloudinary.com/dpwqggym0/image/upload/v1739276720/5_ryt8i6.jpg",
 };
 
 const dataabout = {
     title: "About Me",
-    aboutme: "I'm a CS undergrad with a deep interest in competitive programming, backend development, and system design. With experience in MERN stack and a strong grasp of algorithms, I love solving challenging problems and building efficient applications.",
+    aboutme: "I'm a CS undergrad with a deep interest in competitive programming and backend development. I have a strong grasp of algorithms, I love solving challenging problems and building efficient applications.",
 };
 
 const worktimeline = [
@@ -40,8 +40,8 @@ const worktimeline = [
 ];
 
 const skills = [
-    { name: "C++ ", value: 85 },
-    { name: "Data Structures & Algorithms", value: 80 },
+    { name: "C++ ", value: 75 },
+    { name: "Data Structures & Algorithms", value: 70 },
     { name: "JavaScript (ES6+)", value: 70 },
     { name: "ReactJs", value: 70 },
     { name: "Node.js & Express", value: 80 },
@@ -67,7 +67,7 @@ const dataportfolio = [
     },
     {
         img: "https://res.cloudinary.com/dpwqggym0/image/upload/v1739279251/blog_a9vvrt.jpg",
-        description: "TnP cell webiste.",
+        description: "TnP cell website.",
         link: "#",
     },
 ];
@@ -84,7 +84,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/harsSharma45",
     linkedin: "https://linkedin.com/in/harsharma45",
-    instagram: "https://twitter.com/visitorx7",
+    twitter: "https://twitter.com/whysooharsh",
 };
 
 export {
