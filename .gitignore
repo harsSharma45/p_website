@@ -37,9 +37,6 @@ coverage/
 *.lock
 
 # Assets, images, components (Remove these if needed for deployment)
-src/assets/
-src/images/
-src/components/
 
 # ⚠️ Remove this if `src/content_option.js` is required
 # src/content_option.js
