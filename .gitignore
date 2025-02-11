@@ -36,14 +36,10 @@ coverage/
 *.log
 *.lock
 
-# Assets, images, components, and content options
+# Assets, images, components (Remove these if needed for deployment)
 src/assets/
 src/images/
 src/components/
-src/content_option.js
 
-# Specific files
-yarn.lock
-package.json
-reportWebVitals.js
-
+# ⚠️ Remove this if `src/content_option.js` is required
+# src/content_option.js
