@@ -84,7 +84,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/harsSharma45",
     linkedin: "https://linkedin.com/in/harsharma45",
-    twitter: "https://twitter.com/whysooharsh",
+    twitter: "https://twitter.com/not",
 };
 
 export {
