@@ -27,7 +27,7 @@ const worktimeline = [
         date: "Oct 2024 - Present",
     },
     {
-        jobtitle: "Core Techinical Team",
+        jobtitle: "Core Technical Team",
         where: "BBDITM Technical Club",
         date: "Dec 2024 - Present",
     },
@@ -46,7 +46,7 @@ const skills = [
     { name: "ReactJs", value: 70 },
     { name: "Node.js & Express", value: 80 },
     { name: "MongoDB", value: 75 },
-    { name: "System Design & OS Concepts", value: 50 },
+    { name: "LLD & OS Concepts", value: 50 },
 ];
 
 const dataportfolio = [
