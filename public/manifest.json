@@ -3,7 +3,7 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://res.cloudinary.com/dpwqggym0/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1742404178/DALL_E_2025-03-19_22.38.39_-_A_minimalist_and_rare_H_letter_logo_in_black_and_white._The_design_should_be_modern_sleek_and_unique_with_a_balanced_and_symmetrical_style._The_qglr4t.webp",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },

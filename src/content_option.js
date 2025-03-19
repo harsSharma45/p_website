@@ -1,6 +1,6 @@
 const logotext = "HARSH";
 const meta = {
-    title: "Harsh Sharma",
+    title: "Hi Visitor, I'm Harsh",
     description: "CS Undergrad | Competitive Programmer | Backend Developer",
 };
 

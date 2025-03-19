@@ -98,3 +98,18 @@
         transform: translateZ(0);
     }
 }
+
+body[data-theme='dark'] .table td,
+body[data-theme='dark'] .table th {
+  color: #fff; 
+}
+
+body[data-theme='dark'] .progress-title,
+body[data-theme='dark'] .section-title,
+body[data-theme='dark'] .service__title {
+  color: #fff; 
+}
+body[data-theme='dark'] .table,
+body[data-theme='dark'] .t_border {
+  border-color: #fff !important; 
+}
