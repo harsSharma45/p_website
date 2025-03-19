@@ -1,42 +1,35 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
-import withRouter from "../hooks/withRouter";
+import { Link } from "react-scroll";
 import { Home } from "../pages/home";
 import { Portfolio } from "../pages/portfolio";
-import ContactUs from '../pages/contact/index';
+import ContactUs from "../pages/contact/index";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
 
-const AnimatedRoutes = withRouter(({ location }) => (
-  <TransitionGroup>
-    <CSSTransition
-      key={location.key}
-      timeout={{
-        enter: 400,
-        exit: 400,
-      }}
-      classNames="page"
-      unmountOnExit
-    >
-      <Routes location={location}>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="*" element={<Home />} />
-      </Routes>
-    </CSSTransition>
-  </TransitionGroup>
-));
-
-function AppRoutes() {
+const AppRoutes = () => {
   return (
-    <div className="s_c">
-      <AnimatedRoutes />
+    <div>
+     
+      <nav className="sidebar">
+        <ul>
+          <li><Link to="home" smooth={true} duration={500}></Link></li>
+          <li><Link to="about" smooth={true} duration={500}></Link></li>
+          <li><Link to="portfolio" smooth={true} duration={500}></Link></li>
+          <li><Link to="contact" smooth={true} duration={500}></Link></li>
+        </ul>
+      </nav>
+
+      
+      <div className="sections">
+        <section id="home"><Home /></section>
+        <section id="about"><About /></section>
+        <section id="portfolio"><Portfolio /></section>
+        <section id="contact"><ContactUs /></section>
+      </div>
+
       <Socialicons />
     </div>
   );
-}
+};
 
 export default AppRoutes;

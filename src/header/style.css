@@ -3,24 +3,6 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
-.menu__button {
-    color: var(--text-color);
-}
-
-.menu__button:focus,
-.menu__button:hover {
-    color: var(--text-color);
-    box-shadow: unset;
-}
-
-.menu__button svg {
-    width: 2em;
-    height: 2em;
-    fill: var(--text-color-2);
-    color: var(--text-color-2);
-}
-
 .nav_ac {
     padding: 5px 15px;
     margin: 0;

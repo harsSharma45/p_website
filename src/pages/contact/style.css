@@ -5,6 +5,14 @@
     background-color: var(--bg-color);
     border-radius: 0 !important;
     border: 1px solid var(--secondary-color);
+
+    
+}
+
+.contact-container {
+    padding: 1rem;
+ 
+
 }
 
 .contact__form input.form-control {
@@ -43,3 +51,4 @@ button.btn.ac_btn:hover {
         transform: translateX(100%);
     }
 }
+

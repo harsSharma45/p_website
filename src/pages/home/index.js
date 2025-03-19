@@ -33,7 +33,7 @@ export const Home = () => {
                       ],
                       autoStart: true,
                       loop: true,
-                      deleteSpeed: 10,
+                      deleteSpeed: 6,
                     }}
                   />
                 </h1>
